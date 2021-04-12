@@ -10,3 +10,7 @@ html, body{
 .medidaC{
     height: 100%;
 }
+
+#alerts{
+  height: 4rem;
+}
