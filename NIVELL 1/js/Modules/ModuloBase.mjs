@@ -1,5 +1,5 @@
 import Product from './ModuloPadre.mjs';
-import {year} from './actualYear.js';
+let year = new Date();
 productYear.value = year.getFullYear();
 
 let arrayProduct = [];
