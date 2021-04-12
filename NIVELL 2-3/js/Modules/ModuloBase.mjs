@@ -11,20 +11,6 @@ let textMsn = {
 	duplicatedProduct: "The product is already created"
 }
 
-//Nivell 1
-
-// let buttonSave = document.getElementById("buttonSave");
-
-// buttonSave.addEventListener(`click`, saveProduct);
-
-// function saveProduct(){
-//     let newProduct = productName.value;
-//     let newPrice = productPrice.value;
-//     let newYear = productYear.value;
-//     const product = new Product(newProduct, newPrice, newYear);
-//     product.getAllData();
-// }
-
 buttonSave.addEventListener("click", function() {
     if(confirmation1.textContent == ""){
       printConfirmation(confirmation1, confirmationBox1);

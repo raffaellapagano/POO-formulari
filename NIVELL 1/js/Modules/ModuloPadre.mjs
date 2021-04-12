@@ -53,7 +53,4 @@ class Product{
     }
 }
 
-// const PersonaSueca = "Suecia";
-
-// export {Persona, PersonaSueca};
 export default Product;
